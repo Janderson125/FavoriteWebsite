@@ -1,0 +1,111 @@
+/* Global Reset and Fonts */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #003580;
+  border-bottom: 3px solid #ffc107;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 4rem 1rem;
+  box-shadow: inset 0 0 0 1000px rgba(0, 53, 128, 0.5);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Section Titles */
+section h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #003580;
+  border-bottom: 2px solid #ffc107;
+  padding-bottom: 0.5rem;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #fff;
+}
+
+/* Form */
+form input,
+form button,
+form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #003580;
+  color: white;
+  border: none;
+}
+
+form button:hover {
+  background-color: #00265c;
+}
+
+/* Table */
+table {
+  border: 1px solid #dee2e6;
+  background-color: #fff;
+}
+
+table th {
+  background-color: #003580;
+  color: #fff;
+}
+
+table td, table th {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+}
+
+/* Footer */
+footer {
+  background-color: #003580;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
