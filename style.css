@@ -1,27 +1,68 @@
-/* Reset */
+/* Global Reset and Fonts */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
   line-height: 1.6;
 }
 
-/* Hero Section */
-.hero {
-  background-image: linear-gradient(to right, #007bff, #00bfff);
-  color: white;
+/* Navbar */
+.navbar {
+  background-color: #003580;
+  border-bottom: 3px solid #ffc107;
 }
 
-/* Navbar */
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5rem;
 }
 
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 4rem 1rem;
+  box-shadow: inset 0 0 0 1000px rgba(0, 53, 128, 0.5);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Section Titles */
+section h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #003580;
+  border-bottom: 2px solid #ffc107;
+  padding-bottom: 0.5rem;
+}
+
 /* Card Styling */
 .card {
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -30,37 +71,66 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.card-img-top {
+.card-img-top,
+.card img {
   height: 200px;
   object-fit: cover;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  background-color: #fff;
 }
 
 /* Form Styling */
 form input,
-form button {
-  border-radius: 10px;
+form button,
+form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
 
 form button {
+  background-color: #003580;
+  color: white;
+  border: none;
   padding: 10px 20px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #00265c;
 }
 
 /* Table Styling */
-table th {
-  background-color: #007bff;
-  color: white;
+table {
+  border: 1px solid #dee2e6;
+  background-color: #fff;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-table td,
 table th {
+  background-color: #003580;
+  color: #fff;
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  vertical-align: middle;
+}
+
+table td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
   vertical-align: middle;
 }
 
 /* Footer */
 footer {
+  background-color: #003580;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
   font-size: 0.9rem;
-  color: #666;
   border-top: 1px solid #ddd;
 }

@@ -33,5 +33,3 @@ This project is a simplified clone of Airbnb's website, built using HTML, CSS, B
 1. Clone or download the repository.
 2. Open `index.html` in a browser to preview the site.
 3. Review `style.css` and `script.js` for styling and JavaScript features.
-
----
